@@ -3,7 +3,7 @@ services:
 # This is a template service used to build the Image and as a starting point for making multiple instances on a single host
   template:
     build: .
-    iamge: minecraft:template
+    image: minecraft:template
     container_name: template
     ports:
       - 25565:25565
