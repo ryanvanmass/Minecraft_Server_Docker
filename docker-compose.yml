@@ -1,0 +1,8 @@
+version: "3.3"
+services:
+  template:
+    build: .
+    container_name: template
+    iamge: minecraft:template
+    ports:
+      - 25565:25565
